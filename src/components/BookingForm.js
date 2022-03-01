@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { addBooking } from "../bookTableReducer";
-import { useStore } from "../Store";
+import { addBooking } from "../store/bookTableReducer";
+import { useStore } from "../store/Store";
 
 const BookingForm = () => {
   // form state
